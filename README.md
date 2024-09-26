@@ -56,8 +56,6 @@ conda config --add channels bioconda
 
 conda config --add channels conda-forge
 
-conda –set channel_priority strict
-
 conda update --all
 
 conda create -n nanopore python=3.10 fastqc multiqc fastp minimap2 samtools ivar biopython numpy matplotlib
