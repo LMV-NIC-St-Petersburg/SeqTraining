@@ -38,19 +38,31 @@ https://cdcgov.github.io/MIRA/articles/mira-dd-getting-started.html
 Внутри wsl:
 
 sudo apt update
+
 sudo apt upgrade
+
 sudo apt install tmux mc htop git nano make gcc zlib1g-dev autoconf libbz2-dev liblzma-dev libncurses5-dev g++ ttf-mscorefonts-installer ant openjdk-21-jdk
 
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
-sh Miniconda3-latest-Linux-x86_64.sh 
+
+sh Miniconda3-latest-Linux-x86_64.sh
+
 conda config --add channels defaults
+
 conda config --add channels bioconda
+
 conda config --add channels conda-forge
+
 conda –set channel_priority strict
+
 conda update --all
+
 conda create -n nanopore python=3.10 fastqc multiqc fastp minimap2 samtools ivar biopython numpy matplotlib
+
 conda activate nanopore
+
 conda install -c conda-forge -c nanoporetech -c bioconda medaka
+
 
 
 Установка вспомогательных программ
