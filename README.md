@@ -9,7 +9,7 @@ https://mobaxterm.mobatek.net/download.html
 Ввести:
 
 wsl --update
-
+ 
 wsl --install -d Ubuntu-22.04
 
 wsl --set-version Ubuntu-22.04 1
