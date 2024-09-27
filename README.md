@@ -72,9 +72,17 @@ Notepad++
 https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.7/npp.8.7.Installer.x64.exe
 
 
+
 Inkskape
 https://inkscape.org/release/inkscape-1.3.2/windows/64-bit/msi/?redirected=1
 
 
 FileZilla
 https://filezilla-project.org/download.php?type=client
+
+
+
+# **День 4**
+
+[Скачать данные запуска №1 (20240926)](https://bit.ly/3ZG5HIR)
+
