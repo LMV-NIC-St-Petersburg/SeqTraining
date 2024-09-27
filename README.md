@@ -132,16 +132,16 @@ https://filezilla-project.org/download.php?type=client
 | NB36 | 158 | SARS-CoV-2 |
 | NB37 | 194 | SARS-CoV-2 |
 | NB38 | 190 | SARS-CoV-2 |
-| NB39 | 186 | грипп А |
-| NB40 | 173 | грипп А |
-| NB41 | 169 | грипп А |
-| NB42 | 168 | грипп А |
-| NB43 | 255 | грипп А |
-| NB44 | 251 | грипп А |
-| NB45 | 250 | грипп А |
-| NB46 | 249 | грипп А |
-| NB47 | 248 | грипп А |
-| NB48 | 100 | грипп А |
+| NB39 | 186 | SARS-CoV-2 |
+| NB40 | 173 | SARS-CoV-2 |
+| NB41 | 169 | SARS-CoV-2 |
+| NB42 | 168 | SARS-CoV-2 |
+| NB43 | 255 | SARS-CoV-2 |
+| NB44 | 251 | SARS-CoV-2 |
+| NB45 | 250 | SARS-CoV-2 |
+| NB46 | 249 | SARS-CoV-2 |
+| NB47 | 248 | SARS-CoV-2 |
+| NB48 | 100 | SARS-CoV-2 |
 
 
 
