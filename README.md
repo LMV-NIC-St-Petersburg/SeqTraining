@@ -83,6 +83,9 @@ https://filezilla-project.org/download.php?type=client
 
 
 # **День 4**
+## Загрузка тестовых данных MIRA
+
+[Скачать тестовые данные MIRA](https://drive.google.com/file/d/1E_-94hdu1l3sKhHySOEk55l1AjXz3Uex/view?usp=sharing)
 
 ## Загрузка данных запуска
 [Скачать данные запуска №1 (20240926)](https://bit.ly/3ZG5HIR)
