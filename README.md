@@ -157,6 +157,11 @@ https://filezilla-project.org/download.php?type=client
 
 [Скачать файл с объединенными данными](https://drive.google.com/file/d/1p058zEu5QlG5hxISuEtuJ6tlPWBYQWHo/view?usp=sharing)
 
+## Сборка данных с использованием Minimap2 и Medaka
+
+### Этап 1
+
+
 ## Практическое занятие по выгрузке данных в EpiFlu GISAID
 [Скачать файл для выгрузки данных в GISAID](https://drive.google.com/file/d/1rUlqb5eCA1Jq3i2x0YKUUklPwHNgQKbB/view?usp=sharing)
 
