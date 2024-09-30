@@ -186,6 +186,16 @@ samtools mpileup -aa -A -d 0 -Q 0 01_ref.bam | ivar consensus -p 01 -q 15 -m 5 -
 medaka_consensus -i 01.fastq.gz -d 01.fa -o 01_medaka
 ```
 
+### Этап 2
+
+1. Подгтовим sample_list_all.csv
+2. Запускаем пакетную обработку данных
+```
+conda activate nanopore
+python3 all.py all.fasta
+```
+3. Откроем и проанализируем результаты картирования на разные референсы
+4. 
 
 ## Практическое занятие по выгрузке данных в EpiFlu GISAID
 [Скачать файл для выгрузки данных в GISAID](https://drive.google.com/file/d/1rUlqb5eCA1Jq3i2x0YKUUklPwHNgQKbB/view?usp=sharing)
