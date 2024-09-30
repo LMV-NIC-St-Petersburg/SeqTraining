@@ -153,6 +153,10 @@ https://filezilla-project.org/download.php?type=client
 
 # **День 5**
 
+## Анализ объединенных данных двух запусков MinION с помощью MIRA
+
+[Скачать файл с объединенными данными](https://drive.google.com/file/d/1p058zEu5QlG5hxISuEtuJ6tlPWBYQWHo/view?usp=sharing)
+
 ## Практическое занятие по выгрузке данных в EpiFlu GISAID
 [Скачать файл для выгрузки данных в GISAID](https://drive.google.com/file/d/1rUlqb5eCA1Jq3i2x0YKUUklPwHNgQKbB/view?usp=sharing)
 
