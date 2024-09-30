@@ -160,6 +160,31 @@ https://filezilla-project.org/download.php?type=client
 ## Сборка данных с использованием Minimap2 и Medaka
 
 ### Этап 1
+1.	Скопировать референсный файл all.fasta в папку fastq_pass
+2.	Открыть Mobaxterm, выбрать дистрибутив WSL-Ubuntu
+3.	Перейти в папку fastq_pass
+4.	Соберем все данные для одного баркода в 1 файл
+```
+cat barcode01/*.fastq.gz > 01.fastq.gz
+```
+6.	Выровняем прочтения на референсы из all.fasta
+```
+minimap2 -aY -x map-ont all.fasta 01.fastq.gz | samtools view -bS | samtools sort -o 01.bam && samtools index 01.bam && samtools idxstats 01.bam > 01_idxstats.txt
+```
+8.	Проанализируем таблицу 01_idxstats.txt
+9.	Выберем подходящий референс и сохраним в reference.fasta
+10.	Повторим выравнивание на обновленный референс
+```
+minimap2 -aY -x map-ont reference.fasta 01.fastq.gz | samtools view -bS | samtools sort -o 01_ref.bam && samtools index 01_ref.bam
+```
+12.	Экспортируем черновую консенсусную последовательность
+```
+samtools mpileup -aa -A -d 0 -Q 0 01_ref.bam | ivar consensus -p 01 -q 15 -m 5 -i 01
+```
+14.	Сгенерируем финальную консенсусную последовательность
+```
+medaka_consensus -i 01.fastq.gz -d 01.fa -o 01_medaka
+```
 
 
 ## Практическое занятие по выгрузке данных в EpiFlu GISAID
