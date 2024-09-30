@@ -150,3 +150,9 @@ https://filezilla-project.org/download.php?type=client
 
 ## Практическое занятие по использованию MIRA
 
+
+# **День 5**
+
+## Практическое занятие по выгрузке данных в GISAID
+[Скачать файл для выгрузки данных в GISAID](https://docs.google.com/spreadsheets/d/1C2MycRBJZhoi9-uMEEdTg6KLLD_mZyyV/edit?usp=sharing&ouid=113305951396516287491&rtpof=true&sd=true)
+
