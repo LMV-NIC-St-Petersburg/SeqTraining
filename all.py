@@ -16,4 +16,3 @@ for sample in samples:
 	os.system("samtools idxstats "+sample+".bam > "+sample+"_idxstats.txt")
 	os.system("echo "+sample+" >> idxstats.txt")
 	os.system("samtools idxstats "+sample+".bam >> idxstats.txt")
-

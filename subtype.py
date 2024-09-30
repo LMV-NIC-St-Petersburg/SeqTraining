@@ -35,9 +35,9 @@ for sample in samples:
 		os.system("samtools mpileup -aa -A -d 0 -Q 0 -r "+segment+" "+sample+".bam | ivar consensus -p "+sample+"_"+segment+" -q 15 -m 5 -i "+sample+"_"+segment)
 		depths += sample+"_"+segment+"_depth.txt "
 		os.system("rm "+sample+"_"+segment+".qual.txt")
-		os.system("medaka_consensus -i "+sample+".fastq.gz -i "+sample+".fastq.gz -d "sample+"_"+segment".fa -o medaka_"+sample+"_"+segment)
+		os.system("medaka_consensus -i "+sample+".fastq.gz -d "+sample+"_"+segment+".fa -o medaka_"+sample+"_"+segment)
 	os.system("python3 influenza_cov.py "+sample+"_idxstats.txt "+depths)
-	os.system("cp medaka_"+sample+"_"+segment+"/consensus.fasta "sample+"_"+segment+"_final.fa")
+	os.system("cp medaka_"+sample+"_"+segment+"/consensus.fasta "+sample+"_"+segment+"_final.fa")
 for segment in genes:
     os.system("cat "+"*"+"_"+segment+"_final.fa"+" > "+segment+".fas")
 os.system("multiqc .")
