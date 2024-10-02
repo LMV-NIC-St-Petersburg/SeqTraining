@@ -194,9 +194,15 @@ medaka_consensus -i 01.fastq.gz -d 01.fa -o 01_medaka
 conda activate nanopore
 python3 all.py all.fasta
 ```
+
 3. Откроем и проанализируем результаты картирования на разные референсы
 4. 
 
 ## Практическое занятие по выгрузке данных в EpiFlu GISAID
 [Скачать файл для выгрузки данных в GISAID](https://drive.google.com/file/d/1rUlqb5eCA1Jq3i2x0YKUUklPwHNgQKbB/view?usp=sharing)
 
+
+## Скачать февральский отчет Всемирного центра по гриппу в Лондоне
+
+
+https://www.crick.ac.uk/sites/default/files/2024-05/WIC-VCM-NH202425.pdf
