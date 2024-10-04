@@ -206,3 +206,7 @@ python3 all.py all.fasta
 
 
 https://www.crick.ac.uk/sites/default/files/2024-05/WIC-VCM-NH202425.pdf
+
+
+# ФИНАЛЬНЫЙ ТЕСТ
+[Пройти тест](https://forms.gle/YJXcFedfkUi9Ue7F9)
